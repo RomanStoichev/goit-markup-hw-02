@@ -1,0 +1,73 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color #F5F4FA;
+  --primary-white-color: #ffffff;
+
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+/* logo */
+.site-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: black;
+}
+.logo {
+  color: var(--accent-color);
+}
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact-nav .link {
+  color: var(--title-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+.link.current {
+  color: var(--accent-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.button.filters {
+  background-color: var(--secondary-background-color);
+  color: var(--title-text-color);
+}
+.button.filters:hover,
+.button.filters:focus {
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}
+
+/* main text color #757575 */
+/* color of heads #212121 */
+/* color of hero  and text button #212121 */
+/* active link color and logo #2196F3 */
+/* background of hero and footer #2F303A */
+/* backgrond of page site #E5E5E5 */
+/* background of our team #F5F4FA */
