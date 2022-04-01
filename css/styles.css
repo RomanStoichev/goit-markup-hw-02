@@ -3,9 +3,8 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-background-color: #e5e5e5;
-  --secondary-background-color #F5F4FA;
+  --secondary-background-color: #f5f4fa;
   --primary-white-color: #ffffff;
-
 }
 
 body {
@@ -60,8 +59,8 @@ body {
 }
 .button.filters:hover,
 .button.filters:focus {
-color: var(--primary-white-color);
-background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* main text color #757575 */
