@@ -95,6 +95,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .button.filters {
   background-color: var(--secondary-background-color);
@@ -104,6 +105,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button.filters:hover,
 .button.filters:focus {
@@ -126,12 +128,17 @@ a {
 
   letter-spacing: 0.03em;
 }
+
 .adress > a {
   font-style: normal;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.adress > a:hover,
+.adress > a:focus {
+  color: var(--accent-color);
+}
 /* portfolio */
 .portfolio-title {
   color: var(--title-text-color);
